@@ -1,3 +1,3 @@
 # prow-test
 
-test-inrepoconfig
+test-inrepoconfig2
