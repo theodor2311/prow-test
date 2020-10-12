@@ -1,0 +1,9 @@
+presubmits:
+  - always_run: true
+    name: presubmit-test
+    spec:
+      containers:
+      - image: alpine
+        command: ["/bin/date"]
+    rerun_command: /test this
+    trigger: (?m)^/test( all| this),?(\s+|$)
